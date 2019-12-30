@@ -1,0 +1,28 @@
+{
+  "name": "licha-test",
+  "version": "1.0.0",
+  "description": "Testing SF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lxweb/sf-com.git"
+  },
+  "keywords": [
+    "salesforce",
+    "development",
+    "communities"
+  ],
+  "author": "lxweb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxweb/sf-com/issues"
+  },
+  "homepage": "https://github.com/lxweb/sf-com#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.11.0-rc1"
+  }
+}
