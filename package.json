@@ -4,7 +4,10 @@
   "description": "Testing SF",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "lwc-jest",
+    "test:unit:debug": "lwc-jest --debug",
+    "test:unit:watch": "lwc-jest --watch"
   },
   "repository": {
     "type": "git",
@@ -21,8 +24,11 @@
     "url": "https://github.com/lxweb/sf-com/issues"
   },
   "homepage": "https://github.com/lxweb/sf-com#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@salesforce/lwc-jest": "^0.6.2"
+  },
   "devDependencies": {
+    "@salesforce/sfdx-lwc-jest": "^0.7.1",
     "jshint": "^2.11.0-rc1"
   }
 }
